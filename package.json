@@ -4,5 +4,7 @@
   "description": "lib for node which makes hashes",
   "version": "1.0.0",
   "directories": { "lib": "./build/default" },
-  "engines": { "node": ">= 0.2.0" }
+  "main": "./hashlib",
+  "engines": { "node": ">= 0.2.0" },
+  "scripts": { "install": "make all" }
 }
